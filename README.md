@@ -8,7 +8,7 @@ Node.js wrapper for Textlocal API
 
 ## Usage
 
-```
+```js
 import Textlocal from 'textlocal-promise';
 
 // api-key
