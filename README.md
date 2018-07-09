@@ -32,14 +32,14 @@ textlocal.setSender('MrMaximus');
 const message = 'This is a test';
 const numbers = [441234567890, 441234567891];
 const optionalParams = { custom: 'custom field' };
-textlocal.sendSms(message, numbers, optionalParams)
+textlocal.sendSMS(message, numbers, optionalParams)
   .then(data => processSuccess(data)) // status === 'success'
   .catch(error => processFail(error)); // status === 'failure'
 
 
 // Method chaining
 const textlocal = new Textlocal({ apikey: 'my-api-key' });
-textlocal.setFormat('xml').setSender('MrMaximus').sendSms(message, numbers, optionalParams);
+textlocal.setFormat('xml').setSender('MrMaximus').sendSMS(message, numbers, optionalParams);
 ```
 
 ## Contributing
