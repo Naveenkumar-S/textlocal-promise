@@ -1,0 +1,32 @@
+{
+  "name": "textlocal-promise",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for Textlocal API",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint {./src/*.js\\,./src/models/*.js\\,./src/models/**/*.js\\}",
+    "build": "babel src/ --out-dir build/ --ignore='node_modules/**\\'"
+  },
+  "author": {
+    "name": "Max Rice",
+    "email": "maxr990@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.23.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
+  }
+}
