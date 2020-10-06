@@ -1,5 +1,5 @@
 {
-  "name": "textlocal-promise",
+  "name": "textlocal-promise-naveen",
   "version": "1.0.0",
   "description": "Node.js wrapper for Textlocal API",
   "main": "build/index.js",
